@@ -1,0 +1,9 @@
+* unordered_set
+ - implimented using hashtable
+ - stores unique items
+ - look up of O(1)
+ - fast insertion, deletion, and lookup
+ - declaration: unordered_set<int> myset
+ - .insert(), .erase(), .find(), .begin(), .end(), .size(), .clear(), .emplace()
+ 
+  
