@@ -63,6 +63,13 @@ DynamicList::~DynamicList() {
 // size():
 //  - Return size_
 
+void DynamicList::push_back(int value) {
+ if(size_ != capacity_) {
+    data_[size_] = value;
+ }
+ temp_data = new int[capacity_ * 2];
+}
+
 
 int main() {
     DynamicList list;
